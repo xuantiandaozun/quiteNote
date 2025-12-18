@@ -109,13 +109,13 @@ const emit = defineEmits(['copy', 'clear', 'new-note'])
 
 /* New Button Style */
 .toolbar-btn.new-btn {
-  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
+  background: var(--color-accent);
   color: white;
 }
 
 .toolbar-btn.new-btn:hover {
-  background: linear-gradient(135deg, var(--color-accent-hover), var(--color-accent));
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  background: var(--color-accent-hover);
+  box-shadow: var(--shadow-lg);
 }
 
 .toolbar-btn.danger {

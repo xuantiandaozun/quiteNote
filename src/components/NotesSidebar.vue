@@ -295,7 +295,7 @@ function confirmDelete(noteId, event) {
   margin: 0 var(--space-lg) var(--space-md);
   padding: var(--space-md);
   font-weight: 500;
-  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
+  background: var(--color-accent);
   color: white;
   border-radius: var(--radius-md);
   transition: all var(--transition-base);
@@ -308,7 +308,8 @@ function confirmDelete(noteId, event) {
 
 .new-note-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  background: var(--color-accent-hover);
+  box-shadow: var(--shadow-lg);
 }
 
 /* Notes List */
@@ -368,7 +369,7 @@ function confirmDelete(noteId, event) {
 
 .note-item.active {
   border-color: var(--color-accent);
-  background-color: rgba(99, 102, 241, 0.1);
+  background-color: var(--color-bg-tertiary);
 }
 
 .note-info {

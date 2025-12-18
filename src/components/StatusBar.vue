@@ -184,7 +184,7 @@ const displayTitle = computed(() => {
   font-weight: 600;
   line-height: 1rem;
   text-align: center;
-  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
+  background: var(--color-accent);
   color: white;
   border-radius: var(--radius-full);
 }
